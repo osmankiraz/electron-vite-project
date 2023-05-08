@@ -18,7 +18,6 @@ const Layout = () => {
     <>
       <Nav />
       <Outlet />
-      {/* <Footer /> */}
     </>
   );
 };
@@ -33,7 +32,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/entities",
+        path: "/entities/:id",
         element: <Entities />,
       }
     ],

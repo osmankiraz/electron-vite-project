@@ -9,7 +9,7 @@ const Header: React.FC<React.PropsWithChildren<{}>> = (props) => {
     <Nav className="justify-content-center" activeKey="/home">
       <Nav.Item>
         <Nav.Link as={Link} to="/">
-          Active
+          Home
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
